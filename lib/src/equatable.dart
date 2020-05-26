@@ -14,7 +14,6 @@ import './equatable_utils.dart';
 ///   List<Object> get props => [a];
 /// }
 /// ```
-@immutable
 abstract class Equatable {
   /// The [List] of `props` (properties) which will be used to determine whether
   /// two [Equatables] are equal.
